@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Биеийн жингийн индекс тодорхойлогч</title>
+  <link rel="stylesheet" href="calculator.css">
+  
+</head>
+<body>
+  <img src="https://www.cdc.gov/healthyweight/images/assessing/bmi-adult-fb-600x315.jpg?_=07167" alt="" />
+  <div class="calculator">
+    <h1>Биеийн жингийн индекс тодорхойлогч</h1>
+    <div class="input-fields">
+      <label for="height">Өндөр (см):</label>
+      <input type="number" id="height" placeholder="Өндөрөө оруулна уу?">
+      <label for="weight">Жин (кг):</label>
+      <input type="number" id="weight" placeholder="Жингээ оруулна уу?">
+      <button onclick="calculateBMI()">BMI тодорхойлох</button>
+    </div>
+    <div class="result" id="result"></div>
+  </div>
+  
+  <script src="calculator.js"></script>
+  
+</body>
+</html>

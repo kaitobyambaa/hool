@@ -1,0 +1,161 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Хоол зохицуулагч</title>
+    <style>
+        body {
+            background-image: url('data:image/jpeg;base64,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');
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+            margin: 0;
+            padding: 0;
+            font-family: Arial, sans-serif;
+        }
+    </style>
+</head>
+<body>
+<div class="line"></div>
+<div class="wrapper">
+  <header role="banner">
+    <nav role="navigation">
+        <h1><a href="#">Хоол зохицуулагч</a></h1>
+        <ul class="nav-ul">
+            <li><a href="register.html">Нэвтрэх</a></li>
+            <li><a onclick="openNewPage('calore.html')">Хүнс</a></li>
+            <li><a href="register.html">Бүртгүүлэх</a></li>
+      </ul>
+    </nav>
+  </header>
+  <main role="main">
+    <section class="sec-intro" role="section">
+      <img src="https://www.eatingwell.com/thmb/m5xUzIOmhWSoXZnY-oZcO9SdArQ=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/article_291139_the-top-10-healthiest-foods-for-kids_-02-4b745e57928c4786a61b47d8ba920058.jpg" alt="" />
+      <h1>FOOD-TRACKER</h1>
+    </section>
+    
+    <section class="sec-boxes" role="section">
+        <article class="box">
+          <h1>BMI</h1>
+          <p>Биеийн жингийн индекс тодорхойлогч</p>
+          <button class="button" type="button" role="button" value="MORE" onclick="openNewPage('calculator.html')">More</button>
+        </article>
+        <article class="box">
+          <h1>Calore</h1>
+          <p>Өдөрт авах калори хэмжигч</p>
+          <button class="button" type="button" role="button" value="MORE" onclick="openNewPage('calore.html')">More</button>
+        </article>
+        <article class="box">
+            <h1>Hoolni tses</h1>
+            <p></p>
+            <button class="button" type="button" role="button" value="MORE" onclick="openNewPage('tses.html')">More</button>
+          </article>
+          <article class="box">
+            <h1>deglem</h1>
+            <p></p>
+            <button class="button" type="button" role="button" value="MORE" onclick="openNewPage('deglem.html')">More</button>
+          </article>
+      
+    </section>
+    <section class="sec-events" role="section">
+      <hr />
+      <h1></h1>
+      <article>
+        <h1></h1>
+        <p></p>
+        
+      </article>
+      <article>
+        <h1></h1>
+        <p></p>
+       
+      </article>
+      <article>
+        <h1></h1>
+        <p></p>
+       
+      </article>
+      <article>
+        <h1></h1>
+        <p></p>
+       
+      </article>
+    </section>
+    <section class="sec-projects" role="section">
+      <hr />
+      <h1></h1>
+      <article>
+        <h1></h1>
+       
+      </article>
+      <article>
+        <h1></h1>
+        
+      </article>
+      <article>
+        <h1></h1>
+        
+      </article>
+    </section>
+    <section class="sec-standards" role="section">
+      <hr />
+      <h1></h1>
+      <article>
+        <h1></h1>
+        <p></p>
+      </article>
+      <article>
+        <h1></h1>
+        <p></p>
+      </article>
+    </section>
+    <section class="sec-partners" role="section">
+      <hr />
+      <h1>Our Partners</h1>
+      <div class="row">
+        <div class="logo-container">
+          <img src="https://i.imgur.com/oSriTuP.png" alt="Google logo" />
+        </div>
+        <div class="logo-container">
+          <img src="https://i.imgur.com/kRgvevC.png" alt="Apple logo" />
+        </div>
+        <div class="logo-container">
+          <img src="https://i.imgur.com/ZZjeIP3.png" alt="Wii logo" />
+        </div>
+        <div class="logo-container">
+          <img src="https://i.imgur.com/536rtCW.png" alt="Valve logo" />
+        </div>
+        <div class="logo-container">
+          <img src="https://i.imgur.com/VTq1c9p.png" alt="Adithya Institute of Technology logo" />
+        </div>
+        <div class="logo-container">
+          <img src="https://i.imgur.com/GdYoyxo.png" alt="Intel logo" />
+        </div>
+      </div>
+    </section>
+  </main>
+</div>
+<footer>
+  <nav role="navigation">
+    <ul class="nav-ul">
+      <li><a href="#"></a></li>
+      <li><a href="#"></a></li>
+      <li><a href="#"></a></li>
+      <li><a href="#"></a></li>
+      <li><a href="#"></a></li>
+    </ul>
+  </nav>
+</footer>
+<div class="line"></div>
+<link rel="stylesheet" href="ugugdul.css">
+
+<script>
+    function openNewPage(url) {
+      window.open(url, '_blank');
+    }
+  </script>
+
+</body>
+</html>
